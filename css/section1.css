@@ -1,0 +1,54 @@
+.cols {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    gap: var(--mob-padding);
+    margin-top: 40px;
+}
+
+.col h3 {
+    text-align: left;
+}
+
+.col-1 {
+    max-width: 75%;
+    padding-right: 30px;
+  
+}
+
+.col-2 {
+    max-width: 75%;
+    padding-right: 30px;
+}
+
+
+.col-2-img {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 50px;
+}
+
+.rounded-image {
+    border-radius: 8px;
+}
+
+
+.lng {
+    margin-top: 20px;
+    
+}
+
+
+@media screen and (max-width: 767px) {
+    .col-1, .col-2 {
+        width: 100%;
+        max-width: 100%;
+        padding-right: 0;
+    }
+
+    .col h3 {
+        text-align: center;
+    }
+}

@@ -1,0 +1,38 @@
+footer {
+    /* background-color: var(--bg-color-2); */
+}
+
+footer.container {
+    min-height: auto;
+}
+
+footer.container .inside {
+    padding: var(--mob-padding);
+    color: #040505;
+}
+
+.social-icons {
+max-height: 60px;
+display: flex;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+.icon-inst {
+    max-width: 50px;
+    margin-bottom: 50px;
+
+}
+
+.icon-behance {
+    width: 40px;
+    margin-top: 5px;
+    border-radius: 28%;
+   
+}
+
+.inside, h4 {
+    margin-bottom: 20px;
+}
