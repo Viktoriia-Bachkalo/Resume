@@ -35,7 +35,7 @@ nav.topfixed::before {
     justify-content: space-between;
     border-bottom-left-radius: var(--bord-radius);
     border-bottom-right-radius: var(--bord-radius);
-    background-image: url(../img/image-in-top.JPG);
+    background-image: url(../img/image-in-top.jpg);
     background-color: rgba(10,10,10,.5);
     background-blend-mode: multiply;
     background-size: cover;
